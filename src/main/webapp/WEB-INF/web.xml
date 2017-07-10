@@ -17,4 +17,13 @@
     <url-pattern>/search</url-pattern>
   </servlet-mapping>
 
+  <servlet>
+    <servlet-name>baidu</servlet-name>
+    <servlet-class>com.BaiduServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>baidu</servlet-name>
+    <url-pattern>/baidu</url-pattern>
+  </servlet-mapping>
+
 </web-app>
